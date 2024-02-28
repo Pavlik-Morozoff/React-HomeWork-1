@@ -1,0 +1,32 @@
+.User {
+    margin-top: 30px;
+    position: relative;
+}
+
+.User-Name {
+    margin: 0;
+    
+    font-size: 14px;
+    font-weight: 600;
+    color: #505050
+}
+
+.User-Desc {
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+    font-size: 10px;
+    font-weight: 400;
+    color: #9f9f9f;
+    width: 55%;
+}
+
+.User-Edit_Button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    position: absolute;
+    right: 90px;
+    top: 105px;
+}

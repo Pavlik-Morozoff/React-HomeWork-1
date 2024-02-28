@@ -1,0 +1,58 @@
+.Card {
+    margin: 20px auto;
+    
+    height: 202px;
+    width:  159px;
+
+    font-family: "Montserrat", sans-serif;;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 21px -15px;
+}
+
+.Card-Desc {
+    padding-left: 5px;
+}
+
+.Card-Title {
+    margin: 0;
+
+    font-size: 12px;
+    font-weight: 400;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.Card-Rating {
+    margin: 0;
+    padding: 5px 0;
+
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+}
+
+.Card-Icon {
+  padding: 0 5px;
+}
+
+.Card-Price {
+    font-size: 14px;
+    font-weight: 600;
+
+    text-align: left;
+
+    margin: 0;
+    padding-top: 2px;
+}
+
+.Card-OldPrice {
+    font-size: 11px;
+    font-weight: 500;
+    color: #2C3E4F;
+    text-decoration: line-through;
+}
