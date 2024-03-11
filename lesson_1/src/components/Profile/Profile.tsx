@@ -9,6 +9,8 @@ import './Profile.css';
 
 type ProfileProps = {
     text?: string;
+    title: boolean;
+    button: boolean;
 }
 
 const menuItems = [
@@ -44,12 +46,12 @@ const menuItems = [
     },
 ]
 
-const Profile: FC<ProfileProps> = () => {
+const Profile: FC<ProfileProps> = ({title, button}) => {
   return (
     <div className={cnProfile()}>
        <header className={cnProfile('Header')}>
-          <button className={cnProfile('Header_Button')}>&lt;</button>
-          <p className={cnProfile('Header_Text')}>Profile</p>
+          <button className={cnProfile('Header', {button})}>&lt;</button>
+          <p className={cnProfile('Header' ,{title})}>Profile</p>
        </header>
        <div className={cnProfile('Body')}>
           <User

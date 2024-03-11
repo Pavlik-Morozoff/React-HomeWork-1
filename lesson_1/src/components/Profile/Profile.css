@@ -15,14 +15,15 @@
     align-items: flex-end;
 }
 
+
 .Profile-Header:hover {
     cursor: pointer;
     box-shadow: 0 10px 24px -26px;
     transition: all 0.7s;
 }
 
-.Profile-Header_Button {
-    padding: 0 0 10px 25px;
+.Profile-Header_button {
+    padding: 0 0 0px 25px;
 
     border: none;
     background-color: #ffff;
@@ -31,8 +32,9 @@
     font-size: 26px;
 }
 
-.Profile-Header_Text {
-    padding-left: 25px;
+.Profile-Header_title {
+    margin: 0;
+    padding: 0px 0px 7px 25px;
 
     font-size: 18px;
     font-weight: 500;

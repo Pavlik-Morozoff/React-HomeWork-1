@@ -34,10 +34,19 @@
     font-size: 12px;
     font-weight: 400;
     display: flex;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .Card-Icon {
   padding: 0 5px;
+}
+
+.Card-Wrapper {
+    display: flex;
+    align-items: baseline;
 }
 
 .Card-Price {
@@ -51,6 +60,9 @@
 }
 
 .Card-OldPrice {
+    margin: 0;
+    padding-left: 5px;
+
     font-size: 11px;
     font-weight: 500;
     color: #2C3E4F;

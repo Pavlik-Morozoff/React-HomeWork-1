@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section } from './components/Section/Section'; 
+import { Button } from './components/Button/Button'; 
 import { Profile } from './components/Profile/Profile';
 import { Card } from './components/Card/Card';
 
@@ -10,20 +10,20 @@ const App = () => {
   return (
     <div className="App">
        <h2>Группа кнопок на рукаве</h2>
-      <div className='Block-Buttons'>
-        <Section text='Hello' black />
-        <Section text='Hello' white />
-        <Section text='Hello' className='second' white />
-        <Section text='Hello' className='second' black />
+      <div className='Buttons'>
+        <Button text='Hello' black />
+        <Button text='Hello' white />
+        <Button text='Hello' white secondary/>
+        <Button text='Hello' black secondary/>
       </div>
 
       <h2>
         Простопрофиля
-        <Profile/>
+        <Profile title button/>
       </h2>
       <h2>
         Этовары
-        <Card 
+        <Card prices
         image="./image/first-aid.png"
         title="Портативная Медицинская сумка"
         rating="4.7"

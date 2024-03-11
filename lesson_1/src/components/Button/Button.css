@@ -1,0 +1,95 @@
+.Buttons {
+    display: flex;
+    justify-content: center;    
+}
+
+.Button-Block {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   width: 10%;
+   height: 75px;
+}
+
+.Button {
+    width: 92px;
+    height: 41px;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Button_white {
+    border: 2px solid #000000;
+    background-color: #ffff;
+}
+
+.Button_black {
+    border: 2px solid #ffff;
+    background-color: #000000;
+    color: #ffff;
+}
+
+.Button_white:hover {
+    background-color: #5f5f5f;
+    transition: all 0.5s;
+}
+
+.Button_black:hover {
+    background-color: #cfcfcf;
+    transition: all 0.5s;
+}
+
+.Button-Block_secondary {
+    background-color: #000000;
+}
+
+/* .Block-Buttons {
+    min-width: 10%;
+    height: 100px;
+    
+    display: flex;   
+}
+
+.Button_black, .Button_white {
+    width: 92px;
+    height: 41px;
+    
+    font-size: 18px;
+    font-weight: 400;
+
+    border-radius: 10px;
+}
+
+.Button_white:hover {
+    background-color: #5f5f5f;
+    transition: all 0.5s;
+}
+
+.Button_black:hover {
+    background-color: #cfcfcf;
+    transition: all 0.5s;
+}
+
+.Button_white {
+    border: 2px solid #000000;
+    background-color: #ffff;
+}
+
+.Button_black {
+    border: 2px solid #ffff;
+    background-color: #000000;
+    color: #ffff;
+}
+
+.Buttons-Block_First, .Buttons-Block_Secondary {
+    width: 15%;
+} 
+
+.Buttons-Block_Secondary {
+    background-color: #000000;
+    height: 75px;
+} */
